@@ -1,0 +1,79 @@
+.reviewSection {
+  height: 820px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviewsFromOurCustomers {
+  font-family: "Montserrat-Bold";
+  margin-top: 102px;
+}
+
+.reviewsFromOur {
+  font-size: 36px;
+  line-height: 142.9%;
+  letter-spacing: 2%;
+  color: #5e5252;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.customers {
+  font-size: 36px;
+  line-height: 142.9%;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+  color: var(--peach-color);
+  display: inline-block;
+}
+
+.reviewCarousel {
+  margin-top: 80px;
+  width: 1069px;
+}
+
+.ellipse1,
+.ellipse2,
+.ellipse3,
+.ellipse4 {
+  border-radius: 50%;
+  background: linear-gradient(
+    112.33deg,
+    var(--peach-color) 23.89%,
+    var(--orange-color) 94.22%
+  );
+  opacity: 80%;
+  position: absolute;
+  transform: rotate(62.22deg);
+  z-index: 1;
+}
+
+.ellipse1 {
+  height: 97.67px;
+  width: 97.67px;
+  left: 73.99px;
+  top: 233.8px;
+}
+
+.ellipse2 {
+  width: 49.04px;
+  height: 48.95px;
+  left: 187.11px;
+  top: 538.82px;
+}
+
+.ellipse3 {
+  width: 31.88px;
+  height: 31.82px;
+  left: 924.15px;
+  top: 262px;
+}
+
+.ellipse4 {
+  width: 244.04px;
+  height: 243.58px;
+  left: 1050.51px;
+  top: 440px;
+}

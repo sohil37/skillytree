@@ -1,0 +1,82 @@
+.glass {
+  box-shadow: 0px 0px 15px rgba(62, 62, 62, 0.25);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))
+) {
+  .glass {
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.reviewCard {
+  border-radius: 22px;
+  padding-top: 30px;
+  padding-bottom: 69px;
+  padding-left: 102px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 2;
+}
+
+.customerInfoContainer {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.customerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-family: "Montserrat-SemiBold";
+  font-size: 24px;
+  line-height: 142.9%;
+  letter-spacing: -0.5%;
+  color: #2e2e2e;
+  text-transform: capitalize;
+}
+
+.email {
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  line-height: 142.9%;
+  letter-spacing: -0.5%;
+  color: #828282;
+  text-transform: capitalize;
+}
+
+.review {
+  font-family: "Montserrat-SemiBold";
+  font-size: 18px;
+  line-height: 142.9%;
+  letter-spacing: -0.5%;
+  text-transform: capitalize;
+  color: #272727;
+  position: relative;
+}
+
+.review:before {
+  content: url("/images/reviewSection/opening-quote.svg");
+  display: inline-block;
+  position: absolute;
+  left: -42px;
+  top: -15px;
+}
+
+.review:after {
+  content: url("/images/reviewSection/closing-quote.svg");
+  display: inline-block;
+  position: absolute;
+  right: -17px;
+  bottom: -15px;
+}

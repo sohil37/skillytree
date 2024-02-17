@@ -1,0 +1,239 @@
+.launchSection {
+  display: grid;
+  grid-template-columns: 42% 58%;
+  height: 820px;
+}
+
+.left {
+  position: relative;
+}
+
+.titleDesc {
+  position: absolute;
+  top: 187px;
+}
+
+.upskillWithA,
+.personalTouch {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 64px;
+  line-height: 80.58px;
+  letter-spacing: 2%;
+}
+
+.personalTouch {
+  color: var(--peach-color);
+}
+
+.desc {
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  color: #5e5252;
+  line-height: 25.72px;
+  letter-spacing: 2%;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.bookATrailBtn {
+  position: absolute;
+  top: 540px;
+}
+
+.carouselBtns {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 67px;
+}
+
+.right {
+  position: relative;
+  background-image: url("/images/components/sections/launchSection/surprised-girl.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.glass {
+  box-shadow: 0px 0px 15px rgba(94, 94, 94, 0.4);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))
+) {
+  .glass {
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.congrats {
+  width: 182px;
+  height: 53px;
+  position: absolute;
+  top: 157px;
+  left: 140px;
+  display: flex;
+  gap: 12px;
+  padding: 14px;
+  z-index: 100;
+  border-radius: 7px;
+}
+
+.congratsTitleDesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.congratsTitle {
+  color: var(--peach-color);
+  font-family: "Poppins-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.congratsDesc {
+  color: #5a5a5a;
+  font-family: "Poppins-Medium";
+  line-height: 16px;
+  letter-spacing: 3%;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.tutor {
+  width: 121px;
+  height: 55px;
+  position: absolute;
+  top: 250px;
+  right: 130px;
+  display: flex;
+  gap: 16.14px;
+  padding: 14px;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.tutorTitleDesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutorTitle {
+  color: var(--orange-color);
+  font-family: "Poppins-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.tutorDesc {
+  color: #5a5a5a;
+  font-family: "Poppins-Medium";
+  line-height: 16px;
+  letter-spacing: 3%;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.students {
+  width: 186.06px;
+  height: 43.34px;
+  position: absolute;
+  bottom: 189.54px;
+  left: 0;
+  display: flex;
+  gap: 10px;
+  padding: 9.89px 8.46px;
+  z-index: 100;
+  border-radius: 17px;
+  align-items: center;
+  justify-content: center;
+}
+
+.studentsTitle {
+  color: var(--peach-color);
+  font-family: "Poppins-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.cookingClass {
+  width: 218.83px;
+  height: 96.2px;
+  position: absolute;
+  bottom: 45.77px;
+  right: 92.26px;
+  display: flex;
+  gap: 9px;
+  padding: 16.09px 18.97px;
+  z-index: 100;
+  border-radius: 7px;
+  align-items: center;
+}
+
+.titleTimeBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cookingClassTitle {
+  font-family: "Poppins-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.peach {
+  color: var(--peach-color);
+}
+
+.time {
+  font-family: "Poppins-Medium";
+  font-size: 9px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+.joinNowBtn {
+  background-color: var(--peach-color);
+  font-family: "Poppins-Medium";
+  font-size: 9px;
+  line-height: 16px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  height: 19px;
+  width: 74px;
+}
+
+.joinNowBtn:hover {
+  cursor: pointer;
+}
+
+.ellipse {
+  height: 812px;
+  width: 812px;
+  border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(252, 77, 109, 0.23) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
+  right: -269px;
+  top: 307px;
+}

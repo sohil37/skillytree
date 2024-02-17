@@ -1,0 +1,117 @@
+.footerSection {
+  height: 820px;
+  position: relative;
+}
+
+.footerContainer {
+  width: 1193px;
+  margin-top: 214px;
+  display: flex;
+  gap: 139px;
+}
+
+.logo {
+  margin-top: 49px;
+}
+
+.blogpostsAndSitemapContainer {
+  display: flex;
+  gap: 76px;
+}
+
+.blogpostsAndStartTrialBtnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 370px;
+}
+
+.blogpostsContainer {
+  margin-top: 44px;
+}
+
+.latestBlogPost {
+  font-family: "Roboto-Bold";
+  font-size: 14px;
+  line-height: 140.6%;
+  margin-top: 12px;
+}
+
+.blogHeading {
+  font-family: "Montserrat-SemiBold";
+  font-size: 24px;
+  line-height: 140.6%;
+  margin-top: 12px;
+}
+
+.blog {
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  line-height: 140.6%;
+  margin-top: 12px;
+}
+
+.hr {
+  border-top: 1px solid black;
+}
+
+.sitemapCopywriteAndPrivacyContainer {
+  margin-top: 44px;
+}
+
+.sitemap {
+  display: flex;
+  gap: 76px;
+}
+
+.productsContainer,
+.companyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.productsHeading,
+.companyHeading {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  line-height: 140.6%;
+}
+
+.productsList,
+.companyList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.product,
+.company {
+  font-family: "Montserrat-Medium";
+  font-size: 14px;
+  line-height: 140.6%;
+}
+
+.product:hover,
+.company:hover {
+  cursor: pointer;
+}
+
+.copywriteAndPrivacyContainer {
+  display: flex;
+  gap: 21px;
+  margin-top: 51px;
+}
+
+.copywriteAndPrivacyContainer > p {
+  font-family: "Montserrat-Medium";
+  font-size: 14px;
+  line-height: 140.6%;
+}
+
+.privaryAndTerms:hover {
+  cursor: pointer;
+}

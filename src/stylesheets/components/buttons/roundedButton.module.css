@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 61px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-family: "Montserrat-SemiBold";
+  background: linear-gradient(
+    112deg,
+    var(--peach-color) 23.89%,
+    var(--orange-color) 94.22%
+  );
+  line-height: 21.94px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

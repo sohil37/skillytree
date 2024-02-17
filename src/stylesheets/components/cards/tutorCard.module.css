@@ -1,0 +1,245 @@
+.tutor {
+  height: 524px;
+  width: 336.73px;
+  border-radius: 18px;
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+  z-index: 2;
+  position: relative;
+}
+
+.coverArea {
+  background-repeat: no-repeat;
+  height: 167.93px;
+  width: 336.73px;
+  position: relative;
+}
+
+.glass {
+  box-shadow: 4px 4px 7px rgba(62, 62, 62, 0.17);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))
+) {
+  .glass {
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.topTutorBadge {
+  height: 32.53px;
+  width: 99.35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px 0 18px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold";
+  font-size: 10px;
+  line-height: 16px;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid rgb(255, 255, 255, 0.08);
+}
+
+.wishlistIcon {
+  position: absolute;
+  top: 19px;
+  right: 20.01px;
+}
+
+.wishlistIcon:hover {
+  cursor: pointer;
+}
+
+.profilePic {
+  position: absolute;
+  top: 126px;
+  margin-left: 18.72px;
+}
+
+.tutorInfo {
+  position: relative;
+}
+
+.name {
+  font-family: "Poppins-SemiBold";
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 6.15px;
+  position: absolute;
+  top: 6.15px;
+  left: 105.64px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subjectsContainer,
+.languagesContainer {
+  display: flex;
+  gap: 13.74px;
+  position: absolute;
+  left: 24.42px;
+}
+
+.subjectsContainer {
+  top: 46.23px;
+}
+
+.languagesContainer {
+  top: 72.85px;
+}
+
+.subjects,
+.languages {
+  font-family: "Poppins-Medium";
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.numericInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11.43px;
+  position: absolute;
+  margin: 0 15.08px;
+  top: 103.74px;
+}
+
+.numericInfo {
+  display: flex;
+  flex-direction: column;
+  width: 94.95px;
+  height: 51.87px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat-Bold";
+  font-size: 10px;
+  line-height: 16px;
+  border-radius: 7px;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+  word-spacing: 100vw;
+  text-align: center;
+}
+
+.numericInfoTitle {
+  color: #474747;
+  text-align: center;
+}
+
+.numericInfoValue {
+  color: var(--peach-color);
+}
+
+.briefContainer {
+  margin: 0 15.08px;
+  height: 54px;
+  position: absolute;
+  top: 172.07px;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 8.5%;
+  text-transform: capitalize;
+}
+
+.briefHeading {
+  font-family: "Montserrat-SemiBold";
+}
+
+.brief {
+  font-family: "Montserrat-Medium";
+}
+
+.bookTrialBtnContainer {
+  position: absolute;
+  top: 244.89px;
+  margin: 0 54.51px;
+}
+
+.bookTrialBtn {
+  width: 223.32px;
+  height: 41.32px;
+  border-radius: 22px;
+  border: 1px solid var(--peach-color);
+  box-shadow: 4px 4px 7px 0 rgb(62, 62, 62, 0.17);
+  font-family: "Poppins-SemiBold";
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--peach-color);
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+}
+
+.bookTrialBtn:hover {
+  cursor: pointer;
+}
+
+.bookTrailBtnellipse1,
+.bookTrailBtnellipse2,
+.bookTrailBtnellipse3 {
+  border-radius: 50%;
+  background: linear-gradient(112.33deg, #fc4d6d 23.89%, #fda02f 94.22%);
+  position: absolute;
+}
+
+.bookTrailBtnellipse1 {
+  height: 27.33px;
+  width: 27.33px;
+  left: -7px;
+  bottom: -50px;
+  z-index: 1;
+  opacity: 70%;
+}
+
+.bookTrailBtnellipse2 {
+  height: 18.04px;
+  width: 18.04px;
+  left: 73.29px;
+  bottom: -10px;
+  z-index: 1;
+  opacity: 70%;
+}
+
+.bookTrailBtnellipse3 {
+  height: 35.6px;
+  width: 35.6px;
+  left: 200px;
+  bottom: -53px;
+  z-index: 1;
+}
+
+.quickviewAndChatBtnContainer {
+  display: flex;
+  gap: 80px;
+  position: absolute;
+  top: 322.66px;
+  margin: 0 19.32px;
+  justify-content: space-between;
+}
+
+.quickviewBtn,
+.chatBtn {
+  display: flex;
+  gap: 6.15px;
+  font-family: "Montserrat-SemiBold";
+  font-size: 9px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #474747;
+  background: none;
+  border: none;
+}
+
+.quickviewBtn:hover,
+.chatBtn:hover {
+  cursor: pointer;
+}

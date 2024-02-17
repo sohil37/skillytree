@@ -1,0 +1,76 @@
+.topTutorsSection {
+  height: 820px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topTutors {
+  font-family: "Montserrat-Bold";
+  margin-top: 61px;
+  text-transform: uppercase;
+}
+
+.top {
+  color: #1d1d1d;
+  font-size: 36px;
+  line-height: 125.9%;
+  letter-spacing: 2%;
+  display: inline-block;
+}
+
+.tutors {
+  color: var(--peach-color);
+  font-size: 36px;
+  line-height: 125.9%;
+  letter-spacing: 2%;
+  display: inline-block;
+}
+
+.tutorsContainer {
+  margin-top: 62px;
+  display: flex;
+  gap: 74px;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: white;
+}
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))
+) {
+  .glass {
+    background-color: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.ellipse1,
+.ellipse2 {
+  height: 414px;
+  width: 414px;
+  border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(253, 160, 47, 0.27) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
+}
+
+.ellipse1 {
+  left: -76px;
+  top: 572px;
+}
+
+.ellipse2 {
+  left: 1135px;
+  top: 133px;
+}

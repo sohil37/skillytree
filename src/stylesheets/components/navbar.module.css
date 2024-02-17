@@ -1,0 +1,58 @@
+.navbar {
+  height: 72px;
+  box-shadow: 0 4px 11px 0px rgba(0, 0, 0, 0.14);
+}
+.navbarDiv {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBtns {
+  display: flex;
+  gap: 63px;
+}
+
+.navBtn {
+  text-decoration: none;
+  font-family: "Montserrat-SemiBold";
+  font-weight: 18px;
+  color: var(--navbar-light-font-color);
+  text-transform: capitalize;
+  line-height: 21.94px;
+}
+
+.active {
+  font-family: "Montserrat-Bold";
+  color: var(--navbar-dark-font-color);
+  position: relative;
+}
+
+.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 32px;
+  background-color: var(--peach-color);
+  border-radius: 21px;
+  position: relative;
+}
+
+.navActions {
+  display: flex;
+  gap: 53px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  font-family: "Montserrat-Bold";
+  color: var(--navbar-dark-font-color);
+  line-height: 21.94px;
+}

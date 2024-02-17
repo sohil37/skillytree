@@ -1,0 +1,15 @@
+.btn {
+  height: 14px;
+  width: 14px;
+  background: #c4c4c4;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.64;
+}
+.active {
+  background: var(--peach-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+}

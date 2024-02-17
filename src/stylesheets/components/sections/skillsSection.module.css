@@ -1,0 +1,73 @@
+.skillsSection {
+  display: grid;
+  grid-template-columns: 42% 58%;
+  height: 820px;
+}
+
+.left {
+  position: relative;
+}
+
+.skillsOffered {
+  position: absolute;
+  top: 166px;
+  font-family: "Montserrat-Bold";
+}
+
+.skills {
+  display: inline-block;
+  color: #1d1d1d;
+  font-size: 64px;
+  line-height: 80.58px;
+  letter-spacing: 2%;
+}
+
+.offered {
+  display: inline-block;
+  color: var(--peach-color);
+  font-size: 64px;
+  line-height: 80.58px;
+  letter-spacing: 2%;
+}
+
+.gardeningClasses {
+  color: #5a5454;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+  line-height: 80.58px;
+  letter-spacing: 2%;
+  position: absolute;
+  top: 305px;
+}
+
+.desc {
+  color: #5e5252;
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  line-height: 142.9%;
+  letter-spacing: 2%;
+  position: absolute;
+  top: 376px;
+  text-transform: capitalize;
+}
+
+.price {
+  color: var(--peach-color);
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  line-height: 80.58px;
+  letter-spacing: 2%;
+  position: absolute;
+  top: 486px;
+}
+
+.exploreMoreBtn {
+  position: absolute;
+  top: 556px;
+}
+
+.right {
+  background-image: url("/images/components/sections/skillsSection/skills-image.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

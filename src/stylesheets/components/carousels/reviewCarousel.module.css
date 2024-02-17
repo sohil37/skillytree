@@ -1,0 +1,10 @@
+.reviewCarousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carouselBtns {
+  margin-top: 49px;
+  display: flex;
+  gap: 10px;
+}

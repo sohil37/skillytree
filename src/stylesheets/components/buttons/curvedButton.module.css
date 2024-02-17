@@ -1,0 +1,16 @@
+.btn {
+  background: linear-gradient(112.33deg, #fc4d6d 23.89%, #fda02f 94.22%);
+  font-family: "Montserrat-ExtraBold";
+  font-size: 22px;
+  color: white;
+  border-radius: 0 55px 0 55px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 26.82px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
